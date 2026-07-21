@@ -1,0 +1,25 @@
+{
+  "name": "tsplaywright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tests": "npx playwright test tests/aafreen.spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@azure/identity": "^4.13.1",
+    "@azure/playwright": "^1.1.6",
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.1",
+    "allure": "^0.0.0",
+    "allure-playwright": "^3.10.2",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "exceljs": "^3.4.0"
+  }
+}
